@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 40%;
+  height: 35vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.select-player{
+  margin-left: 20px;
+}
+
+select{
+  margin: 5px 0;
+}
+
+.btn{
+  display: block;
+  transform: translateX(10px);
+}
+
+.playerStats_container{
+  margin-left: 100px;
+}
+
+span{
+  font-size: 22px;
+  color: orange;
+}
